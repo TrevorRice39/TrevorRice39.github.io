@@ -5,7 +5,7 @@
 }
 
 body, html {
-    background-color: #121212;
+    background-color: #212121;
     font-family: myFont;
 }
 h4 {
@@ -14,7 +14,7 @@ h4 {
 }
 
 .navbar {
-    background-color:#212121;
+    background-color:#121212;
     color: #bb86fc;
 }
 
@@ -44,7 +44,7 @@ a:hover {
 }
 .page-footer.custom-footer {
     color: #bb86fc;
-    background-color: #212121;
+    background-color: #121212;
 }
 .btn.footer-button {
     background-color:#bb86fc;
@@ -62,4 +62,16 @@ a:hover {
     color: rgba(255, 255, 255, .9);
     font-family: 'Ubuntu', sans-serif;
     margin-right: 5%;
+}
+
+.jumbotron{
+  
+    background-color: #303030;
+    
+
+    background-size: 76% 76%;
+    margin-top: 5%;
+    margin-left: 15%;
+   margin-right: 15%;
+    box-shadow: 15px 15px #121212;
 }
