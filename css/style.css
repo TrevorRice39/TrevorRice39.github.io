@@ -2,7 +2,7 @@
 
 body, html {
     background-color: #212121;
-
+    height: 100%;
 }
 h4 {
     font-family: 'Ubuntu', sans-serif;
@@ -77,8 +77,13 @@ a:hover {
 }
 
 .carousel {
-    height:40em;
+
 
   width: auto;
   overflow: hidden;
+}
+
+.rounded.custom-img {
+     box-shadow: 10px 10px #212121;
+    border: none;
 }
