@@ -1,12 +1,8 @@
 
-@font-face {
-    font-family: myFont;
-    src: url('Hero/Hero-Bold.ttf')
-}
 
 body, html {
     background-color: #212121;
-    font-family: myFont;
+    padding-bottom: 65px; 
 }
 h4 {
     font-family: 'Ubuntu', sans-serif;
@@ -65,13 +61,24 @@ a:hover {
 }
 
 .jumbotron{
-  
-    background-color: #303030;
-    
 
-    background-size: 76% 76%;
+    background-color: #303030;
+
+
     margin-top: 5%;
     margin-left: 15%;
-   margin-right: 15%;
+    margin-right: 15%;
     box-shadow: 15px 15px #121212;
+}
+
+.display-5.custom-display {
+    color: rgba(255, 255, 255, .9);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.carousel {
+    height:50em;
+
+  width: auto;
+  overflow: hidden;
 }
