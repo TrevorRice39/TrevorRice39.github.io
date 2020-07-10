@@ -39,6 +39,11 @@ a:hover {
     font-family: 'Ubuntu', sans-serif;
 }
 .page-footer.custom-footer {
+position:relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color:#fff;
     color: #bb86fc;
     background-color: #121212;
 }
@@ -86,4 +91,7 @@ a:hover {
 .rounded.custom-img {
      box-shadow: 10px 10px #212121;
     border: none;
+}
+.carousel.custom-carousel {
+    
 }
