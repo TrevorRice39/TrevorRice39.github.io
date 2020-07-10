@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: myFont;
+    src: url('Hero/Hero-Bold.ttf')
+}
+
+body, html {
+    background-color: #121212;
+    font-family: myFont;
+}
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.navbar {
+    background-color:#212121;
+    color: #bb86fc;
+}
+
+
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(187, 134, 252, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    color: #bb86fc;
+}
+.custom-toggler.navbar-toggler { 
+    border-color: #bb86fc; 
+} 
+.nav-link {
+    color: #bb86fc;
+}
+.nav-item {
+    color: #bb86fc;
+    font-family: 'Ubuntu', sans-serif;
+}
+a:hover {
+    color: white;
+}
+
+.nav-text.custom-nav-text {
+    color: rgba(255, 255, 255, .9);
+    font-family: 'Ubuntu', sans-serif;
+}
+.page-footer.custom-footer {
+    color: #bb86fc;
+    background-color: #212121;
+}
+.btn.footer-button {
+    background-color:#bb86fc;
+}
+
+.btn-group.custom-btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.text-center.custom-text {
+    color: rgba(255, 255, 255, .9);
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 5%;
+}
